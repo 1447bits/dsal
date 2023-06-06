@@ -1,9 +1,15 @@
+/*
+Given sequence k = k1 <k2 < … <kn of n sorted keys, with a search probability pi for each key ki . Build the Binary search tree that has the least search cost given the access probability for each key?
+*/
+
 #include<iostream>
 using namespace std;
+
 void con_obst(void);
 void print(int,int);
 float a[20],b[20],wt[20][20],c[20][20];
 int r[20][20],n;
+
 int main()
   {
 	int i;
